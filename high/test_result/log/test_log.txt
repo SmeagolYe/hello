@@ -1,0 +1,176 @@
+Mon, 04 Nov 2019 17:16:05 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 17:16:06 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:06 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667027&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:16:08 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 17:16:08 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:08 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:16:08 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 17:16:08 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:08 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667027&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:16:09 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 17:16:09 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:09 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667027&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:16:09 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 17:16:09 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:09 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:16:09 = INFO = 正在执行第7条用例：审核标
+Mon, 04 Nov 2019 17:16:09 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:16:09 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117783&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:48:59 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 17:48:59 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:48:59 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667039&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:14 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 17:49:14 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:14 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667040&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:15 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 17:49:15 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:15 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:15 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 17:49:15 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:16 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667040&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:16 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 17:49:16 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:16 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667040&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:16 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 17:49:16 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:16 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 17:49:17 = INFO = 正在执行第7条用例：审核标
+Mon, 04 Nov 2019 17:49:17 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 17:49:17 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117800&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667041&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667041&amount=10000 HTTP/1.1" 302 0
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/system/loginfirstprompt;jsessionid=9AB01FDE3160E99B3CDE8FB7D84D6C12 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667041&amount=1000 HTTP/1.1" 302 0
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/system/loginfirstprompt;jsessionid=2A31060FCC208710B838807C6EA0A179 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 302 0
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/system/loginfirstprompt;jsessionid=29B7D3E05862D7CCD6C0E684C48CF1F4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第7条用例：审核标
+Mon, 04 Nov 2019 19:55:21 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=&status=4 HTTP/1.1" 302 0
+Mon, 04 Nov 2019 19:55:21 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/system/loginfirstprompt;jsessionid=B4E17CDAB09A7EAEA68FE67D24DB1D3E HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:21 = INFO = 正在执行第8条用例：投资
+Mon, 04 Nov 2019 19:55:22 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:22 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/bidLoan?memberId=%24%7Bmember_id%7D&password=123456&loanId=&amount=100 HTTP/1.1" 302 0
+Mon, 04 Nov 2019 19:55:22 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/system/loginfirstprompt;jsessionid=86EA7CD225043505DED0571886D95476 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:42 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 19:55:42 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:42 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667042&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:43 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 19:55:43 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:43 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:44 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 19:55:44 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:44 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667042&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:45 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 19:55:45 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:46 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667042&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:47 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 19:55:47 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:47 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:47 = INFO = 正在执行第7条用例：审核标
+Mon, 04 Nov 2019 19:55:47 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:47 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117849&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:47 = INFO = 正在执行第8条用例：投资
+Mon, 04 Nov 2019 19:55:47 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 19:55:47 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/bidLoan?memberId=%24%7Bmember_id%7D&password=123456&loanId=117849&amount=100 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 19:55:47 = ERROR = 用例失败~:'11013' != '10001'
+- 11013
++ 10001
+
+Mon, 04 Nov 2019 21:00:07 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 21:00:07 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:08 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667043&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:11 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 21:00:11 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:11 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:11 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 21:00:11 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:11 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667043&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:12 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 21:00:12 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:12 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667043&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:12 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 21:00:13 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:13 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:13 = INFO = 正在执行第7条用例：审核标
+Mon, 04 Nov 2019 21:00:13 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:13 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117866&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:13 = INFO = 正在执行第8条用例：投资
+Mon, 04 Nov 2019 21:00:13 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:00:14 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/bidLoan?memberId=178962&password=123456&loanId=%24%7Bloan_id%7D&amount=100 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:00:16 = ERROR = 用例失败~:'11009' != '10001'
+- 11009
++ 10001
+
+Mon, 04 Nov 2019 21:03:10 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 21:03:10 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:03:10 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667044&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:03:11 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 21:03:11 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:03:11 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:03:11 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 21:03:11 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:03:12 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667044&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:03:12 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 21:03:12 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:03:12 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667044&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:03:12 = INFO = 正在执行第6条用例：加标
+Mon, 04 Nov 2019 21:03:12 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:03:13 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:23 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 21:31:23 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:23 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667045&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:28 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 21:31:28 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:28 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:28 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 21:31:28 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:29 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667045&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:29 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 21:31:29 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:29 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667045&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:29 = INFO = 正在执行第5条用例：加标
+Mon, 04 Nov 2019 21:31:29 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:29 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:30 = INFO = 正在执行第6条用例：审核标
+Mon, 04 Nov 2019 21:31:30 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:30 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117875&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:30 = INFO = 正在执行第7条用例：投资
+Mon, 04 Nov 2019 21:31:30 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:31:30 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/bidLoan?memberId=178984&password=123456&loanId=%24%7Bloan_id%7D&amount=100 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:31:31 = ERROR = 用例失败~:'11009' != '10001'
+- 11009
++ 10001
+
+Mon, 04 Nov 2019 21:35:26 = INFO = 正在执行第1条用例：注册
+Mon, 04 Nov 2019 21:35:26 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:26 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/register?mobilephone=13006667046&pwd=123456 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:28 = INFO = 正在执行第2条用例：登录
+Mon, 04 Nov 2019 21:35:28 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:28 = DEBUG = http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:28 = INFO = 正在执行第3条用例：充值
+Mon, 04 Nov 2019 21:35:28 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:28 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/recharge?mobilephone=13006667046&amount=10000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:28 = INFO = 正在执行第4条用例：提现
+Mon, 04 Nov 2019 21:35:28 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:29 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/withdraw?mobilephone=13006667046&amount=1000 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:30 = INFO = 正在执行第5条用例：加标
+Mon, 04 Nov 2019 21:35:30 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:30 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/add?memberId=110290&title=helloyeting&amount=10000&loanRate=12.0&loanTerm=3&loanDateType=0&repaymemtWay=11&biddingDays=5 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:35 = INFO = 正在执行第6条用例：审核标
+Mon, 04 Nov 2019 21:35:35 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:35 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/loan/audit?id=117876&status=4 HTTP/1.1" 200 None
+Mon, 04 Nov 2019 21:35:35 = INFO = 正在执行第7条用例：投资
+Mon, 04 Nov 2019 21:35:35 = DEBUG = Starting new HTTP connection (1): test.lemonban.com:80
+Mon, 04 Nov 2019 21:35:35 = DEBUG = http://test.lemonban.com:80 "GET /futureloan/mvc/api/member/bidLoan?memberId=178985&password=123456&loanId=117876&amount=100 HTTP/1.1" 200 None

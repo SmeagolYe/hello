@@ -1,0 +1,12 @@
+Fri, 08 Nov 2019 00:30:31 = INFO = 正在执行第1条用例：注册
+Fri, 08 Nov 2019 00:30:31 = DEBUG = Starting new HTTP connection (1): 127.0.0.1:8888
+Fri, 08 Nov 2019 00:30:31 = DEBUG = http://127.0.0.1:8888 "GET http://test.lemonban.com/futureloan/mvc/api/member/register?mobilephone=13006667016&pwd=123456 HTTP/1.1" 200 None
+Fri, 08 Nov 2019 00:30:31 = INFO = 正在执行第2条用例：登录
+Fri, 08 Nov 2019 00:30:31 = DEBUG = Starting new HTTP connection (1): 127.0.0.1:8888
+Fri, 08 Nov 2019 00:30:32 = DEBUG = http://127.0.0.1:8888 "POST http://test.lemonban.com/futureloan/mvc/api/member/login HTTP/1.1" 200 None
+Fri, 08 Nov 2019 00:30:32 = INFO = 正在执行第3条用例：充值
+Fri, 08 Nov 2019 00:30:32 = DEBUG = Starting new HTTP connection (1): 127.0.0.1:8888
+Fri, 08 Nov 2019 00:30:32 = DEBUG = http://127.0.0.1:8888 "GET http://test.lemonban.com/futureloan/mvc/api/member/recharge?mobilephone=13006667016&amount=10000 HTTP/1.1" 200 None
+Fri, 08 Nov 2019 00:30:32 = INFO = 正在执行第4条用例：提现
+Fri, 08 Nov 2019 00:30:32 = DEBUG = Starting new HTTP connection (1): 127.0.0.1:8888
+Fri, 08 Nov 2019 00:30:33 = DEBUG = http://127.0.0.1:8888 "GET http://test.lemonban.com/futureloan/mvc/api/member/withdraw?mobilephone=13006667016&amount=1000 HTTP/1.1" 200 None
